@@ -9,5 +9,7 @@ Maintainer: Lindsay Clark <lvclark@illinois.edu>
 Description: This package includes functions to estimate minor allele frequencies
   from numerical SNP data, plot histograms of minor allele frequencies, and
   filter SNP data based on minor allele frequencies.
+Imports: knitr
+VignetteBuilder: knitr
 Url: https://github.com/lvclark/SNPfreq
 License: GPL-3

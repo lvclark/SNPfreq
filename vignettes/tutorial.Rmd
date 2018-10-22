@@ -1,0 +1,26 @@
+---
+title: "SNPfreq vignette"
+author: "Lindsay Clark"
+date: "October 22, 2018"
+output: html_document
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{A Tutorial for SNPfreq}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The SNPfreq package
+
+These are some functions to analyze SNP data.
+
+```{r}
+library(SNPfreq)
+data(GGdata)
+myMAF <- minorAlleleFrequency(GGdata)
+myMAF
+```
+
+Wasn't that great!
