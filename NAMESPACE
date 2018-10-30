@@ -1,4 +1,8 @@
-export(minorAlleleFrequency, filterSNPs, mafHist)
+useDynLib(SNPfreq)
+
+export(minorAlleleFrequency, filterSNPs, mafHist,
+       fibonacciCpp)
 
 importFrom("graphics", "hist")
 importFrom("knitr", "knit2html")
+importFrom(Rcpp, evalCpp)
